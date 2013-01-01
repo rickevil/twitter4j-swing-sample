@@ -1,53 +1,99 @@
-<!doctype html>
-<html>
-	<head>
-		<meta charset="utf-8">
-    	<meta http-equiv="X-UA-Compatible" content="chrome=1">
-		<meta name="keywords" content="Twitter, Twitter4J, client, Java, Swing">
-		<meta name="description" content="Sample client using the Framework Twitter4J">
-    	<link rel="stylesheet" type="text/css" href="styles.css">
-    	<title>Twitter4j-Swing-Sample by javaprogger</title>
-  	</head>
-  	<body>
-  		<div id="navcontainer">	
-			<ul id="navlist">
-				<li id="active"><a href="index.html" id="current">Start</a></li>
-				<li><a href="manual.html">Manual</a></li>
-				<li><a href="developer.html">Developer</a></li>
-				<li><a href="about.html">About</a></li>
-			</ul>
-		</div>
-		
-	    <div>
-		    <h1>Twitter4j-Swing-Sample</h1>
-		    <p>by javaprogger</p>
-	    </div>
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="Twitter, Twitter4J, client, Java, Swing">
+	<meta name="description" content="Sample client using the Framework Twitter4J">
+    <title>Twitter4J Swing Sample</title>
+
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <script src="bootstrap/js/bootstrap.js"></script>
     
-	    <div style="float: right; border-style: solid; border-width: 5px; margin: 5px; padding: 5px">
-	    	<h2>Download</h2>
-	    	<p>
-	    		You can download the current version here:<br>
-	    		<a href="download/TwitterSwingClient alpha12.24.2012.jar">alpha 12/24/2012</a>
-	    	</p>
-	    </div>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="index.html">Twitter Swing Sample</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="project.html">Project</a></li>
+              <li><a href="manual.html">Manual</a></li>
+              <li><a href="developer.html">Developer</a></li>
+              <li><a href="about.html">About</a></li>
+              
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Homepages of Developers <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li class="nav-header">project leader</li>
+                  <li><a href="github.com/javaprogger">javaprogger</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">contributors</li>
+                  <li>none</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
     
-	    <div>
-	    	<h2>a client for Twitter</h2>
-	    	<p>This is an desktop client for the microblogging web service Twitter.</p>
-	    	<p>
-	    		With this client you can enjoy the full range of functionalities Twitter offers
-	    		without need to visit the website.
-	    		You can manage multiple accounts simultanously <strong>[not yet implemented]</strong>.
-	    	</p>
-	    </div>
-    
-	    <div>
-	    	<h2>Open Source</h2>
+      <div class="hero-unit">
+        <h1>Twitter4J Swing Sample</h1>
+        <p>
+        	The website for a sample open source project for a twitter client implemented with the framework
+        	<a href="http://twitter4j.org/en/index.html">Twitter4J</a>.
+        </p>
+        <p><a class="btn btn-primary btn-large" href="project.html">More about the project &raquo;</a></p>
+      </div>
+
+      <div class="row">
+        <div class="span4">
+          <h2>Manual</h2>
+          <p>
+          	
+          </p>
+          <p><a class="btn" href="manual.html">Manual Page &raquo;</a></p>
+        </div>
+        
+        <div class="span4">
+          <h2>Open Source</h2>
 	    	<p>
 	    		This is an open source project.
-	    		It means that everyone can read the source code and contribute to the project!<br>
-	    		Find more information on the <a href="developer.html">developer page</a>.
+	    		It means that everyone can read the source code and contribute to the project!
 	    	</p>
+       		<p><a class="btn" href="developer.html">Developer Page &raquo;</a></p>
+        </div>
+        
+	    <div class="span4">
+	    	<h2>Download</h2>
+	    	<p><a class="btn btn-primary" href="download/TwitterSwingClient alpha12.24.2012.jar">alpha 12/24/2012</a></p>
 	    </div>
-  	</body>
+      </div>
+
+      <hr>
+
+      <footer style="float:right;">
+        <p>
+        	website created with <a href="twitter.github.com/bootstrap">Bootstrap</a>
+        </p>
+      </footer>
+    </div>
+  </body>
 </html>
