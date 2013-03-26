@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<login>
+    <user name="[your name]">
+	    <consumerkey>[your key]</consumerkey>
+	    <consumersecret>[your secret]</consumersecret>
+	    <accesstoken>[your token]</accesstoken>
+	    <accesstokensecret>[your tokensecret]</accesstokensecret>
+    </user>
+</login>
