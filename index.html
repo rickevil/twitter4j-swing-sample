@@ -10,7 +10,7 @@
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
     <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
     
-    <link href="styles.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
     <link rel="shortcut icon" href="images/websiteicon.ico" type="image/x-icon" />
   </head>
 
@@ -23,7 +23,6 @@
           <ul class="nav">
             <li><a href="project.html">Project</a></li>
             <li><a href="manual.html">Manual</a></li>
-            <li><a href="developer.html">Developer</a></li>
             <li><a href="about.html">About</a></li>
           </ul>
         </div>
@@ -31,49 +30,45 @@
     </div>
 
     <div class="container">
-    
       <div class="hero-unit" style="text-align:center">
         <h1>Twitter4J Swing Sample</h1>
+        <p>The website of an open source project implementing a sample Java Swing Twitter client using <a href="http://twitter4j.org/en/index.html">Twitter4J</a></p>
         <p>
-        	The website of an open source project implementing a sample Java Swing Twitter client using <a href="http://twitter4j.org/en/index.html">Twitter4J</a>
-        </p>
-        <p>
-        	<a class="btn btn-primary btn-large" href="download/Twitter4JSwingSample 2013-03.jar">
+        	<a class="btn btn-primary btn-large" href="download/T4JSS 13-06.jar">
         		Download<br>
-        		Twitter4JSwingSample 2013-03
+        		T4JSS 13-06
         	</a><br>
         	<a href="download/login.xml">login file you need to insert your credentials</a>
 		</p>
       </div>
 
+		<div style="text-align:right">
+			<a href="https://twitter.com/intent/tweet?button_hashtag=T4JSS" class="twitter-hashtag-button" data-size="large" data-related="multiprogger">Tweet #T4JSS</a>
+		</div>
+
       <div class="row">
-	    <div class="span4">
+	    <div class="span6">
 	    	<h2>Project</h2>
 	        <p>
-	        	The website for a sample open source project for a twitter client implemented with the framework
+	        	An open source project implementing a twitter client using the framework
 	        	<a href="http://twitter4j.org/en/index.html">Twitter4J</a>.
 	        </p>
 	    	<p><a class="btn" href="project.html">Project page &raquo;</a></p>
 	    </div>
       
-        <div class="span4">
+        <div class="span6">
           <h2>Manual</h2>
           <p>
           	Here you can find some information about using the application
           </p>
           <p><a class="btn" href="manual.html">Manual Page &raquo;</a></p>
         </div>
-        
-        <div class="span4">
-          <h2>Open Source</h2>
-	    	<p>
-	    		This is an open source project.
-	    		It means that everyone can read the source code and contribute to the project!
-	    	</p>
-       		<p><a class="btn" href="developer.html">Developer Page &raquo;</a></p>
-        </div>
-        </div>
+	 </div>
 
+		<div style="text-align:right">
+			Fork me on
+			<a href="https://github.com/multiprogger/twitter4j-swing-sample"><img src="images/github-logo.png" width="126" height="50"></a>
+		</div>
       <hr>
 
       <footer style="float:right;">
@@ -83,4 +78,19 @@
       </footer>
     </div>
   </body>
+  
+	<script>
+		!function(d,s,id){
+			var js,
+			fjs = d.getElementsByTagName(s)[0],
+			p = /^http:/.test(d.location) ? 'http' : 'https';
+			
+			if(!d.getElementById(id)){
+				js = d.createElement(s);
+				js.id = id;
+				js.src = p + '://platform.twitter.com/widgets.js';
+				fjs.parentNode.insertBefore(js,fjs);
+			}
+		}(document, 'script', 'twitter-wjs');
+	</script>
 </html>
