@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +10,8 @@
     <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
     
     <link href="css/styles.css" rel="stylesheet">
-    <link rel="shortcut icon" href="images/websiteicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="images/websiteicon.ico" type="image/x-icon"/>
+    <script type="text/javascript" src="javascript/twitter.js"></script>
   </head>
 
   <body>
@@ -34,17 +34,18 @@
         <h1>Twitter4J Swing Sample</h1>
         <p>The website of an open source project implementing a sample Java Swing Twitter client using <a href="http://twitter4j.org/en/index.html">Twitter4J</a></p>
         <p>
-        	<a class="btn btn-primary btn-large" href="download/T4JSS 13-06.jar">
+        	<a class="btn btn-primary btn-large" href="download/Twitter4JSwingSample-13cw25.jar">
         		Download<br>
-        		T4JSS 13-06
+        		Twitter4J Swing Sample 13 cw25
         	</a><br>
         	<a href="download/login.xml">login file you need to insert your credentials</a>
 		</p>
       </div>
-
-		<div style="text-align:right">
-			<a href="https://twitter.com/intent/tweet?button_hashtag=T4JSS" class="twitter-hashtag-button" data-size="large" data-related="multiprogger">Tweet #T4JSS</a>
-		</div>
+      
+      <div style="text-align: right;">
+          <a href="https://twitter.com/intent/tweet?button_hashtag=T4JSS" class="twitter-hashtag-button"
+          data-lang="en"data-size="large" data-count="vertical">Tweet #T4JSS</a>
+      </div>
 
       <div class="row">
 	    <div class="span6">
@@ -71,26 +72,11 @@
 		</div>
       <hr>
 
-      <footer style="float:right;">
+      <footer style="float:left;">
         <p>
         	website created with <a href="https://twitter.github.com/bootstrap">Bootstrap</a>
         </p>
       </footer>
     </div>
   </body>
-  
-	<script>
-		!function(d,s,id){
-			var js,
-			fjs = d.getElementsByTagName(s)[0],
-			p = /^http:/.test(d.location) ? 'http' : 'https';
-			
-			if(!d.getElementById(id)){
-				js = d.createElement(s);
-				js.id = id;
-				js.src = p + '://platform.twitter.com/widgets.js';
-				fjs.parentNode.insertBefore(js,fjs);
-			}
-		}(document, 'script', 'twitter-wjs');
-	</script>
 </html>

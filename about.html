@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +11,7 @@
     
     <link href="css/styles.css" rel="stylesheet">
     <link rel="shortcut icon" href="images/websiteicon.ico" type="image/x-icon" />
+    <script type="text/javascript" src="javascript/twitter.js"></script>
   </head>
 
   <body>
@@ -33,7 +33,7 @@
 		<div style="text-align:center">
 		    <h1>About</h1>
 	    </div>
-	    
+		
 		<div>  
 		    <h2>Team</h2>
 		    <p>Here you see all the developers having contributed to the project at least once.
@@ -60,28 +60,13 @@
 	    <hr>
 	    <div>
 	    	<h2>License</h2>
-	    	<p>T4JSS is published under the <a href="http://www.gnu.org/licenses/gpl.html">GPLv3</a></p>
+	    	<p>Twitter4J Swing Sample is published under the <a href="http://www.gnu.org/licenses/gpl.html">GPLv3</a></p>
 		</div>
 	    
       	<hr>
-	    <footer style="float:right;">
+	    <footer style="float:left;">
 	    	<p>website created with <a href="twitter.github.com/bootstrap">Bootstrap</a></p>
 		</footer>
 	</div>
 	</body>
-	
-	<script>
-		!function(d,s,id){
-			var js,
-			fjs = d.getElementsByTagName(s)[0],
-			p = /^http:/.test(d.location) ? 'http' : 'https';
-			
-			if(!d.getElementById(id)){
-				js = d.createElement(s);
-				js.id = id;
-				js.src = p + '://platform.twitter.com/widgets.js';
-				fjs.parentNode.insertBefore(js,fjs);
-			}
-		}(document, 'script', 'twitter-wjs');
-	</script>
 </html>
